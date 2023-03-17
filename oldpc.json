@@ -1,0 +1,111 @@
+{
+"hw": {
+  "uuid":   "00000000-0000-0000-0000-6c626ddf66d8",
+  "serial": "To be filled by O.E.M.",
+  "vendor": "MSI",
+  "model":  "G41M-P28 (MS-7592) (5.0)"
+},
+"bios": {
+  "vendor":  "American Megatrends Inc.",
+  "version": "V26.1",
+  "date":    "12/22/2010",
+  "serial":  "0000000000"
+},
+"cpu": {
+  "sockets": 1,
+  "cores":   2,
+  "threads": 2,
+  "arch":    "x86_64",
+  "model":   "Intel(R) Celeron(R) CPU        E3400  @ 2.60GHz"
+},
+"ram": {
+  "gb": 3,
+  "mb": 3864,
+  "used_percent": 28
+},
+"swap": {
+  "gb": 0,
+  "mb": 0,
+  "used_percent": 0
+},
+"swap_part": {
+  "num": 0,
+  "list": {}
+},
+"os": {
+  "type":    "GNU/Linux",
+  "id":      "",
+  "version": "",
+  "release": "",
+  "kernel":  "5.10.0-20-amd64"
+},
+"net": {
+  "name":    "oldpc",
+  "fqdn":    "oldpc",
+  "domain":  "(none)",
+  "ip_list": "192.168.0.250",
+  "ip":      "192.168.0.250",
+  "gw":      "192.168.0.254",
+  "dns":     "192.168.0.254 fd88:a36b:1a2c::1"
+},
+"net_if": {
+  "num": 2,
+  "list": {
+    "0": {"if": "enp2s0", "ip": "", "mask": "", "mac": "6c:62:6d:df:66:d8", "speed": "Unknown!"},
+    "1": {"if": "wlxd03745f05f6b", "ip": "192.168.0.250", "mask": "255.255.255.0", "mac": "d0:37:45:f0:5f:6b", "speed": ""}
+  }
+},
+"fs": {
+  "num": 2,
+  "list": {
+    "0": {"dev": "sda1", "mount": "/", "size": "113G", "used": "9.8G", "type": "ext4"},
+    "1": {"dev": "sdb1", "mount": "/home", "size": "139G", "used": "245M", "type": "ext4"}
+  }
+},
+"disk": {
+  "num": 2,
+  "list": {
+    "0": {"dev": "sda", "model": "HS-SSD-E100 128G", "size": "119.2G", "serial": "0xe87c2f8f", "rm": "0", "mbr": "dos", "scsi_id": "[2:0:0:0]"},
+    "1": {"dev": "sdb", "model": "ST3160316AS", "size": "149.1G", "serial": "0x6511d702", "rm": "0", "mbr": "dos", "scsi_id": "[3:0:0:0]"}
+  }
+},
+"server": {
+  "is_virtual": "false",
+  "uptime":     "25 min",
+  "users":      "user"
+},
+"pkg": {
+  "num": 4,
+  "list": ["mc", "make", "gcc", "dpkg"]
+},
+"proc": {
+  "num": 4,
+  "list": {
+    "0": {"name": "mc", "cmd": "mc", "pid": "2096", "version": "GNU Midnight Commander 4.8.26"},
+    "1": {"name": "mc", "cmd": "mc", "pid": "2124", "version": "GNU Midnight Commander 4.8.26"},
+    "2": {"name": "mc", "cmd": "mc", "pid": "4476", "version": "GNU Midnight Commander 4.8.26"},
+    "3": {"name": "firefox-esr", "cmd": "/usr/lib/firefox-esr/firefox-esr", "pid": "4153", "version": "Mozilla Firefox 91.13.0esr"}
+  }
+},
+"sysctl": {
+  "net.ipv4.conf.default.forwarding": "0",
+  "net.ipv4.conf.default.rp_filter": "0",
+  "net.ipv4.conf.all.rp_filter": "0",
+  "net.ipv4.tcp_syncookies": "1",
+  "net.ipv4.ip_default_ttl": "64",
+  "net.ipv4.ip_dynaddr": "0",
+  "net.ipv4.tcp_ecn": "2",
+  "kernel.sysrq": "438"
+},
+"agent": {
+  "name":    "gpm",
+  "pid":     "",
+  "cmd":     "",
+  "user":    "",
+  "sudoers": ""
+},
+"psql": {
+},
+"sssd": {
+}
+}
